@@ -3,11 +3,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 
-import os
-path= os.getcwd() + '/Data/population.csv'
-df = pd.read_csv(path)
+# import os
+# path= os.getcwd() + '/Data/population.csv'
+# df = pd.read_csv(path)
 # df = pd.read_csv('population.csv')
-
+url = https://github.com/tueckermann/Streamlit-test/blob/main/Data/population.csv
+df = pd.read_csv(url)
 # a) Create a new Pandas data frame where the first column is the year and other 142 columns are 
 # populations of all the countries in the data
 
